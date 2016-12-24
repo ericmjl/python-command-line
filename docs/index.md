@@ -1,5 +1,7 @@
 ---
-author: Eric J. Ma
+author:
+- name: Eric J. Ma
+  affiliation: MIT
 date: 24 December 2016
 title: How to package a Python module for command-line use
 ---

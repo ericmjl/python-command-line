@@ -4,3 +4,7 @@ pandoc docs/index.md \
     -c docs/template/notes.css \
     -H docs/template/header.html \
     --template docs/template/template.html
+
+git add .
+git commit
+git push
