@@ -18,7 +18,7 @@ setup(
     license=readfile('LICENSE'),
     entry_points={
         'console_scripts': [
-            'helloworld = helloworld:hello'
+            'aloha = helloworld:hello'
         ]
     },
 )
