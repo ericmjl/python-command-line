@@ -1,9 +1,9 @@
 # Create website
-pandoc docs/index.md \
-    -o docs/index.html \
-    -c docs/template/notes.css \
-    -H docs/template/header.html \
-    --template docs/template/template.html
+pandoc index.md \
+    -o index.html \
+    -c template/notes.css \
+    -H template/header.html \
+    --template template/template.html
 
 git add .
 git commit
